@@ -8,6 +8,7 @@ Hybrid Next.js landing page: live [ship-or-die.com](https://www.ship-or-die.com)
 |----------|-----|
 | GitHub | https://github.com/cosmosmarkets/shipordie |
 | Vercel project | https://vercel.com/jawad-designs-projects1/shipordie |
+| Production URL | https://shipordie-tau.vercel.app (requires Vercel team access if Deployment Protection is on) |
 
 ## Stack
 
