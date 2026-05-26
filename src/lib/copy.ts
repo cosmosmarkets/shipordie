@@ -19,12 +19,12 @@ export const copy = {
   },
   hero: {
     ship: "SHIP",
-    line2: "your app to landfall in 30 days",
+    line2: "your app in 30 days",
     or: "or",
     die: "DIE",
     stakes:
-      "Miss the deadline — walk the plank. Kicked off the ship forever. No appeal. No refund.",
-    scrollCue: "↓ Man the deck or man the plank",
+      "miss the deadline, get kicked out forever.",
+    scrollCue: "scroll to start",
   },
   problem: [
     { text: "0 users.", emphasis: true },

@@ -1,2 +1,222 @@
-/* failed https://www.ship-or-die.com/_next/static/chunks/03~kea_btv922.css: HTTP Error 404: Not Found */
-/* failed https://www.ship-or-die.com/_next/static/chunks/0vv1_x2wrzzni.css: HTTP Error 404: Not Found */
+.pirate-scroll{--launch-copy-opacity:1;--consequence-opacity:0;--consequence-y:22px;--scene-visual-opacity:1;--captain-opacity:0;--slacker-opacity:1;--fall-opacity:0;--splash-opacity:0;--storm-opacity:0;--storm-strike-opacity:0;--storm-ambient-opacity:0;--captain-x:0px;--fall-x:0px;--fall-y:0px;--fall-rotate:0deg;--splash-scale:.75;--scroll-cue-opacity:1;--scroll-cue-y:0px;background:var(--background);height:420vh}
+
+.pirate-stage{z-index:35;background-color:#0000;background-image:url(/landing/pirate/pixel-noise.png);background-repeat:repeat;height:100vh;position:sticky;top:0;overflow:hidden}
+
+.storm-layer,.storm-flash,.storm-ambient-flash{pointer-events:none;position:fixed;inset:0}
+
+.storm-layer{z-index:4;opacity:var(--storm-opacity)}
+
+.storm-flash{z-index:30;opacity:calc(var(--storm-strike-opacity) * .86);background:#f3e6c96b}
+
+.storm-ambient-flash{z-index:29;opacity:0;background:#f3e6c93d;animation:1.4s step-end infinite ambientScreenFlash}
+
+.pirate-scroll[data-storm-active=false] .storm-flash,.pirate-scroll[data-storm-active=false] .storm-ambient-flash,.pirate-scroll[data-storm-active=false] .storm-asset:before,.pirate-scroll[data-storm-active=false] .storm-asset:after{opacity:0;animation:none}
+
+.storm-asset{z-index:4;width:min(60vw,700px);height:min(44vw,520px);image-rendering:pixelated;opacity:calc(.58 + (var(--storm-strike-opacity) * .34));filter:brightness(calc(1 + (var(--storm-strike-opacity) * 3.2))) saturate(calc(1 + (var(--storm-strike-opacity) * .8))) contrast(calc(1 + (var(--storm-strike-opacity) * .45))) drop-shadow(0 0 calc(var(--storm-strike-opacity) * 26px) #f3e6c9d1);background:url(/landing/pirate/storm-bg.png) top/contain no-repeat;position:fixed;top:0;left:50%;transform:translate(-50%)}
+
+.storm-asset:before{content:"";background:inherit;image-rendering:pixelated;filter:brightness(3.1)saturate(.55)contrast(1.42)drop-shadow(0 0 22px #f3e6c99e);opacity:0;animation:1.4s step-end infinite ambientThunderFlash;position:absolute;inset:0}
+
+.storm-asset:after{content:"";background:inherit;image-rendering:pixelated;opacity:calc(var(--storm-strike-opacity) * .82);filter:brightness(4.2)saturate(.2)contrast(1.6)drop-shadow(0 0 22px #f3e6c9cc);position:absolute;inset:0}
+
+.scene-header{z-index:40;color:#5f8381c7;letter-spacing:.22em;text-transform:uppercase;justify-content:space-between;align-items:center;gap:1rem;font-size:.58rem;display:flex;position:absolute;top:clamp(1.1rem,3vw,1.9rem);left:clamp(1.25rem,5vw,3.6rem);right:clamp(1.25rem,5vw,3.6rem)}
+
+.scene-brand{align-items:center;gap:.65rem;display:flex}
+
+.scene-brand strong{color:var(--bone);font-family:var(--font-pirata), Georgia, serif;letter-spacing:0;text-transform:none;font-size:clamp(1.45rem,2.2vw,2rem);font-weight:400}
+
+.scene-brand small{opacity:.72;display:none}
+
+.scene-header-actions{align-items:center;gap:1.5rem;display:flex}
+
+.scene-copy{z-index:40;max-width:min(56vw,48rem);position:absolute;left:clamp(1.35rem,5.5vw,4rem)}
+
+.scene-copy-ship{top:21vh}
+
+.scene-copy-ship h1{color:var(--bone);font-family:var(--font-anton), Impact, sans-serif;letter-spacing:.005em;font-size:clamp(9rem,21vw,20rem);font-weight:400;line-height:.78}
+
+.moon-asset,.cloud-asset{z-index:3;image-rendering:pixelated;opacity:var(--scene-visual-opacity);pointer-events:none;background-position:50%;background-repeat:no-repeat;background-size:contain;position:fixed}
+
+.moon-asset{background-image:url(/landing/pirate/moon.png);width:62px;height:62px;top:19vh;right:7vw}
+
+.cloud-asset{background-image:url(/landing/pirate/cloud-wide.png)}
+
+.cloud-asset-one{width:120px;height:44px;opacity:calc(var(--scene-visual-opacity) * .28);top:28vh;right:32vw}
+
+.cloud-asset-two{width:110px;height:36px;opacity:calc(var(--scene-visual-opacity) * .22);top:39vh;right:7vw}
+
+.ship-scene{z-index:9;aspect-ratio:1391/980;width:min(72vw,860px);opacity:var(--scene-visual-opacity);pointer-events:none;position:fixed;bottom:1.6rem;left:46vw}
+
+.ship-image{width:110%;height:auto;display:block;transform:translateY(30px)}
+
+.crew-sprite,.captain-sprite,.slacker-sprite,.fall-sprite,.splash-sprite{image-rendering:pixelated;image-rendering:crisp-edges;pointer-events:none;background-repeat:no-repeat;background-size:auto 100%;position:absolute}
+
+.crew-sprite{z-index:4;background-image:url(/landing/pirate/crew-typing.png);background-size:400% 100%;width:88px;height:70px;animation:.68s steps(2,end) infinite crewWork}
+
+.crew-sprite:after{content:"";background:#86bdb5;width:6px;height:2px;animation:.72s steps(2,end) infinite laptopFlicker;position:absolute;bottom:11px;right:8px;box-shadow:4px -3px #86bdb5a6}
+
+.crew-sprite:before{content:"";background:#c9906b;width:5px;height:4px;animation:.52s steps(2,end) infinite typingHands;position:absolute;bottom:16px;left:37px;box-shadow:9px -1px #c9906b}
+
+.start-mission-pirate{aspect-ratio:256/244;width:min(42vw,15rem);image-rendering:pixelated;image-rendering:crisp-edges;background-image:url(/landing/pirate/crew-typing.png);background-position:0 0;background-repeat:no-repeat;background-size:400% 100%;animation:.82s steps(4,end) infinite startMissionPirateBob;position:relative}
+
+.start-mission-pirate:after{content:"";background:#86bdb5;width:6%;height:1%;animation:.72s steps(2,end) infinite laptopFlicker;position:absolute;bottom:21%;left:34%;box-shadow:10px -6px #86bdb5a6}
+
+.start-mission-pirate:before{content:"";background:#c9906b;width:4%;height:3%;animation:.52s steps(2,end) infinite typingHands;position:absolute;bottom:26%;left:38%;box-shadow:18px -2px #c9906b}
+
+.crew-sprite-two{background-position:66.666% 0;animation-delay:90ms;top:65%;left:41%}
+
+.crew-sprite-three{background-position:33.333% 0;animation-delay:.16s;top:65.5%;left:57%}
+
+.crew-sprite-four{background-position:100% 0;animation-delay:.24s;top:60%;left:73%}
+
+.captain-sprite{z-index:8;width:152px;height:174px;opacity:var(--captain-opacity);transform:translateX(var(--captain-x)) scaleX(-1);transform-origin:50% 100%;top:52.5%;left:82%}
+
+.slacker-sprite{z-index:7;width:112px;height:104px;opacity:var(--slacker-opacity);top:56.5%;left:16%}
+
+.fall-sprite{z-index:9;width:112px;height:104px;opacity:var(--fall-opacity);transform:translate(calc(var(--fall-x) - 18px), var(--fall-y)) rotate(var(--fall-rotate));transform-origin:50%;top:60%;left:16%}
+
+.splash-sprite{z-index:12;width:160px;height:68px;opacity:var(--splash-opacity);transform:scale(var(--splash-scale));transform-origin:50% 100%;top:90%;left:-3%}
+
+.action-frame{image-rendering:pixelated;image-rendering:crisp-edges;opacity:0;background-position:50%;background-repeat:no-repeat;background-size:contain;position:absolute;inset:0}
+
+.slacker-idle-frame{opacity:1;background-image:url(/landing/pirate/slacker-frame-0.png)}
+
+.captain-frame-0{background-image:url(/landing/pirate/captain-frame-0.png)}
+
+.captain-frame-1{background-image:url(/landing/pirate/captain-frame-1.png)}
+
+.captain-frame-2{background-image:url(/landing/pirate/captain-frame-2.png)}
+
+.captain-frame-3{background-image:url(/landing/pirate/captain-frame-3.png)}
+
+.captain-frame-4{background-image:url(/landing/pirate/captain-frame-4.png)}
+
+.captain-frame-5{background-image:url(/landing/pirate/captain-frame-5.png)}
+
+.captain-frame-6{background-image:url(/landing/pirate/captain-frame-6.png)}
+
+.captain-frame-7{background-image:url(/landing/pirate/captain-frame-7.png)}
+
+.fall-frame-0{background-image:url(/landing/pirate/slacker-frame-0.png)}
+
+.fall-frame-1{background-image:url(/landing/pirate/slacker-frame-1.png)}
+
+.fall-frame-2{background-image:url(/landing/pirate/slacker-frame-2.png)}
+
+.fall-frame-3{background-image:url(/landing/pirate/slacker-frame-3.png)}
+
+.fall-frame-4{background-image:url(/landing/pirate/slacker-frame-4.png)}
+
+.fall-frame-5{background-image:url(/landing/pirate/slacker-frame-5.png)}
+
+.splash-frame-0{background-image:url(/landing/pirate/splash-frame-0.png)}
+
+.splash-frame-1{background-image:url(/landing/pirate/splash-frame-1.png)}
+
+.splash-frame-2{background-image:url(/landing/pirate/splash-frame-2.png)}
+
+.splash-frame-3{background-image:url(/landing/pirate/splash-frame-3.png)}
+
+.splash-frame-4{background-image:url(/landing/pirate/splash-frame-4.png)}
+
+.pirate-scroll[data-captain-frame="0"] .captain-frame-0,.pirate-scroll[data-captain-frame="1"] .captain-frame-1,.pirate-scroll[data-captain-frame="2"] .captain-frame-2,.pirate-scroll[data-captain-frame="3"] .captain-frame-3,.pirate-scroll[data-captain-frame="4"] .captain-frame-4,.pirate-scroll[data-captain-frame="5"] .captain-frame-5,.pirate-scroll[data-captain-frame="6"] .captain-frame-6,.pirate-scroll[data-captain-frame="7"] .captain-frame-7,.pirate-scroll[data-fall-frame="0"] .fall-frame-0,.pirate-scroll[data-fall-frame="1"] .fall-frame-1,.pirate-scroll[data-fall-frame="2"] .fall-frame-2,.pirate-scroll[data-fall-frame="3"] .fall-frame-3,.pirate-scroll[data-fall-frame="4"] .fall-frame-4,.pirate-scroll[data-fall-frame="5"] .fall-frame-5,.pirate-scroll[data-splash-frame="0"] .splash-frame-0,.pirate-scroll[data-splash-frame="1"] .splash-frame-1,.pirate-scroll[data-splash-frame="2"] .splash-frame-2,.pirate-scroll[data-splash-frame="3"] .splash-frame-3,.pirate-scroll[data-splash-frame="4"] .splash-frame-4{opacity:1}
+
+.wave-layer{image-rendering:pixelated;pointer-events:none;opacity:var(--scene-visual-opacity);background-image:url(/landing/pirate/wave-tile.png);background-repeat:repeat-x;position:fixed;left:-10vw;right:-10vw}
+
+.wave-layer-back{z-index:7;filter:opacity(.18);background-size:260px 86px;height:78px;animation:34s steps(18,end) infinite waveBack;bottom:2.2rem}
+
+.wave-layer-front{z-index:11;filter:opacity(.46);background-size:380px 126px;height:110px;animation:24s steps(18,end) infinite waveFront;bottom:-.3rem}
+
+@keyframes typingHands{50%{translate:0 3px}}
+
+@keyframes crewWork{50%{translate:0 3px}}
+
+@keyframes startMissionPirateBob{50%{translate:0 4px}}
+
+@keyframes laptopFlicker{50%{opacity:.38;translate:0 -1px}}
+
+@keyframes ambientScreenFlash{0%,58%,66%,to{opacity:0}62%{opacity:calc(var(--storm-ambient-opacity) * .38)}70%{opacity:calc(var(--storm-ambient-opacity) * .16)}}
+
+@keyframes ambientThunderFlash{0%,58%,66%,to{opacity:0}62%{opacity:calc(var(--storm-ambient-opacity) * .78)}70%{opacity:calc(var(--storm-ambient-opacity) * .32)}}
+
+@keyframes waveBack{to{background-position-x:260px}}
+
+@keyframes waveFront{to{background-position-x:380px}}
+
+.deadline-plank-scene__wave-back{filter:opacity(.24);background-size:260px 86px;height:82px;animation:34s steps(18,end) infinite waveBack;bottom:2.4rem}
+
+.deadline-plank-scene__wave-front{z-index:4;filter:opacity(.95);background-size:380px 126px;height:118px;animation:24s steps(18,end) infinite waveFront;bottom:-.2rem}
+
+.crew-wave-back{z-index:5;filter:opacity(.14);background-size:260px 86px;height:80px;animation:34s steps(18,end) infinite waveBack;bottom:5.1rem}
+
+.crew-wave-mid{z-index:6;filter:opacity(.28);background-size:320px 106px;height:96px;animation:29s steps(18,end) infinite reverse waveMid;bottom:2.05rem}
+
+.crew-wave-front{z-index:42;filter:opacity();background-size:380px 126px;height:112px;animation:24s steps(18,end) infinite waveFront;bottom:-.25rem}
+
+.landing-crew-wave-back{z-index:5;filter:opacity(.14);background-size:260px 86px;height:80px;animation:34s steps(18,end) infinite waveBack;bottom:5.1rem}
+
+.landing-crew-wave-mid{z-index:6;filter:opacity(.28);background-size:320px 106px;height:96px;animation:29s steps(18,end) infinite reverse waveMid;bottom:2.05rem}
+
+.landing-crew-wave-front{z-index:42;filter:opacity();background-size:380px 126px;height:112px;animation:24s steps(18,end) infinite waveFront;bottom:-.25rem}
+
+@keyframes waveMid{to{background-position-x:-320px}}
+
+@media (min-width:981px){.scene-brand small{display:inline}}
+
+@media (max-width:980px){.pirate-scroll{height:400vh}.scene-header{align-items:center}.scene-copy{max-width:84vw}.scene-copy-ship{top:18vh}.scene-copy-ship h1{font-size:clamp(7rem,31vw,11rem)}.ship-scene{width:150vw;bottom:8vh;left:auto;right:-38vw}.crew-sprite{width:76px;height:60px}.captain-sprite{width:132px;height:151px;top:52%}.slacker-sprite,.fall-sprite{width:100px;height:93px}}
+
+@media (max-width:640px){.pirate-scroll{height:380vh}.pirate-stage{min-height:100svh}.scene-header p{display:none}.scene-header{gap:.65rem;top:.9rem;left:1rem;right:1rem}.scene-header-actions{flex-shrink:0;gap:.5rem}.scene-brand{gap:.375rem;min-width:0}.scene-brand strong{font-size:.875rem}.scene-copy{max-width:calc(100vw - 2rem);left:1rem}.scene-copy-ship{top:16vh}.scene-copy-ship h1{letter-spacing:0;font-size:clamp(5.15rem,40vw,10.4rem);line-height:.76}.launch-copy{letter-spacing:-.055em;margin-top:.8rem;font-size:clamp(1.15rem,6vw,1.75rem)}.scroll-cue{letter-spacing:.12em;gap:.52rem;font-size:.58rem}.consequence-copy{margin-top:-.7rem}.consequence-copy strong{gap:.42rem}.consequence-copy__or{font-size:clamp(2.75rem,18vw,4.8rem)}.consequence-copy__die{font-size:clamp(4.15rem,32vw,8.5rem)}.consequence-copy>span{white-space:nowrap;margin-top:.9rem;font-size:clamp(.72rem,3.8vw,1rem)}.ship-scene{width:124vw;bottom:calc(4vh - 10px);left:-2vw;right:auto}.ship-image{width:104%;transform:translateY(0)}.moon-asset{width:44px;height:44px;opacity:calc(var(--scene-visual-opacity) * .72);top:15vh;right:.75rem}.cloud-asset-one{width:82px;height:30px;top:25vh;right:18vw}.cloud-asset-two{display:none}.storm-asset{width:min(94vw,430px);height:min(70vw,320px);top:5vh}.crew-sprite{width:50px;height:40px}.crew-sprite:after,.crew-sprite:before{transform-origin:100% 100%;transform:scale(.72)}.crew-sprite-two{top:65.5%;left:39%}.crew-sprite-three{top:65.5%;left:52%}.crew-sprite-four{top:62%;left:64%}.captain-sprite{width:86px;height:99px;top:52%;left:63%}.slacker-sprite,.fall-sprite{width:68px;height:63px;left:22%}.forge-shell{padding:1rem}.forge-header{flex-direction:column;align-items:flex-start;gap:.6rem}.forge-step{text-align:left;align-items:flex-start}.forge-copy h1{font-size:clamp(4.8rem,26vw,6.6rem)}.forge-result-row{grid-template-columns:1fr}.slacker-sprite{top:57%}.fall-sprite{top:60.5%}.splash-sprite{width:104px;height:44px;top:89%;left:17%}.wave-layer-back{background-size:220px 72px;height:58px;bottom:2.8rem}.wave-layer-front{background-size:300px 100px;height:82px;bottom:0}}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,:before,:after{scroll-behavior:auto!important;transition-duration:1ms!important;animation-duration:1ms!important;animation-iteration-count:1!important}.pirate-scroll{height:100vh}.pirate-stage{height:100vh;position:relative}}
+
+.profile-page[data-mood=on_deck] .profile-backdrop__wave-back,.profile-page[data-mood=on_deck] .profile-backdrop__wave-mid,.profile-page[data-mood=on_deck] .profile-backdrop__wave-front,.profile-page[data-mood=at_risk] .profile-backdrop__wave-back,.profile-page[data-mood=at_risk] .profile-backdrop__wave-mid,.profile-page[data-mood=at_risk] .profile-backdrop__wave-front,.profile-page[data-mood=at_risk] .profile-backdrop__lightning,.profile-page[data-mood=at_risk] .profile-backdrop__storm-flash,.profile-page[data-mood=at_risk] .profile-backdrop__shark,.profile-page[data-mood=overboard] .profile-backdrop__shark,.profile-page[data-mood=overboard] .profile-backdrop__red-wave-back,.profile-page[data-mood=overboard] .profile-backdrop__red-wave-mid,.profile-page[data-mood=overboard] .profile-backdrop__red-wave-front,.profile-page[data-mood=overboard] .profile-backdrop__overboard-skull{display:block}
+
+.profile-backdrop__wave-back{z-index:1;filter:opacity(.14);background-size:240px 76px;height:70px;animation:38s steps(18,end) infinite waveBack;bottom:4.5rem}
+
+.profile-backdrop__wave-mid{z-index:3;filter:opacity(.22);background-size:320px 104px;height:92px;animation:32s steps(18,end) infinite reverse waveMid;bottom:1.4rem}
+
+.profile-backdrop__wave-front{z-index:4;filter:opacity(.4);background-size:380px 126px;height:112px;animation:26s steps(18,end) infinite waveFront;bottom:-.4rem}
+
+.profile-backdrop__storm-flash{z-index:7;opacity:0;background:#f3e6c92e;animation:6.5s step-end infinite profileLightningWash;position:absolute;inset:0}
+
+.profile-backdrop__red-wave-back{z-index:1;filter:opacity(.18);background-size:240px 76px;height:70px;animation:38s steps(18,end) infinite waveBack;bottom:4.5rem}
+
+.profile-backdrop__red-wave-mid{z-index:3;filter:opacity(.34);background-size:320px 104px;height:92px;animation:32s steps(18,end) infinite reverse waveMid;bottom:1.4rem}
+
+.profile-backdrop__red-wave-front{z-index:4;filter:opacity(.55);background-size:380px 126px;height:112px;animation:26s steps(18,end) infinite waveFront;bottom:-.4rem}
+
+@media (prefers-reduced-motion:reduce){.profile-backdrop__wave-back,.profile-backdrop__wave-mid,.profile-backdrop__wave-front,.profile-backdrop__ship,.profile-backdrop__lightning,.profile-backdrop__storm-flash,.profile-backdrop__shark,.profile-backdrop__skeleton{animation:none!important}.profile-backdrop__lightning,.profile-backdrop__storm-flash{opacity:0}}
+
+.pirate-rain-layer {
+          bottom: 0;
+          left: 0;
+          mask-image: linear-gradient(180deg, black 0%, black 68%, transparent 100%);
+          opacity: var(--rain-opacity, 0);
+          overflow: hidden;
+          pointer-events: none;
+          position: fixed;
+          right: 0;
+          top: 0;
+          transition: opacity 320ms steps(4, end);
+          z-index: 28;
+        }
+
+.pirate-rain-layer span {
+          animation: pirateRainDrop var(--drop-duration) linear infinite;
+          animation-delay: var(--drop-delay);
+          background: linear-gradient(180deg, transparent, rgb(216 240 246 / 1));
+          box-shadow: 0 0 6px rgb(216 240 246 / 0.48);
+          height: var(--drop-height);
+          left: var(--rain-left);
+          opacity: var(--drop-opacity);
+          position: absolute;
+          top: var(--rain-top);
+          transform: rotate(24deg);
+          transform-origin: 50% 50%;
+          width: 1.5px;
+        }
+
+@keyframes pirateRainDrop {
+          to {
+            translate: var(--drop-drift) 118vh;
+          }
+        }

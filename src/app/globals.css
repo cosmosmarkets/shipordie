@@ -2,6 +2,7 @@
 @source "../components/**/*.{ts,tsx}";
 @source "../app/**/*.{ts,tsx}";
 @import "../styles/hero.css";
+@import "../styles/hero-live.css";
 
 :root {
   --color-background: #020712;

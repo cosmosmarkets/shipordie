@@ -2,7 +2,7 @@
 const media = "/media";
 
 export const assets = {
-  shipHero: `${media}/ship-hero.11aijkz4a5ddc.webp_dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7`,
+  shipHero: `${media}/ship-hero.11aijkz4a5ddc.webp`,
   icon: `${media}/icon.0x7tyegcepml4.png`,
   step1: `${media}/step-1.146j4hpyjcz8o.png`,
   step2: `${media}/step-2.17jvbmqhriu4h.jpg`,
