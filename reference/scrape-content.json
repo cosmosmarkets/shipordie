@@ -1,0 +1,1306 @@
+{
+  "meta": {
+    "url": "https://www.ship-or-die.com",
+    "title": "Ship or Die — Ship a startup in 30 days, or get kicked out forever",
+    "description": "Ship a startup in 30 days, or get kicked out forever. A private crew for people forced to launch.",
+    "og_title": "Ship or Die — Ship a startup in 30 days, or get kicked out forever",
+    "og_description": "Ship a startup in 30 days, or get kicked out forever. A private crew for people forced to launch.",
+    "og_image": "https://www.ship-or-die.com/opengraph-image.png?opengraph-image.0sn2-lhobvrfz.png",
+    "og_image_width": "1672",
+    "og_image_height": "941",
+    "twitter_card": "summary_large_image",
+    "twitter_image": "https://www.ship-or-die.com/twitter-image.png?twitter-image.0sn2-lhobvrfz.png"
+  },
+  "typography": {
+    "fonts": {
+      "Anton": "Hero SHIP/DIE headlines",
+      "Pirata One": "Pirate decorative headings",
+      "Geist Mono": "UI / step labels / body mono",
+      "Press Start 2P": "Pixel retro accents"
+    },
+    "woff2_files": []
+  },
+  "navigation": {
+    "logo": "Ship or Die",
+    "byline": "by Marc Lou & Jack Friks",
+    "items": [
+      {
+        "label": "Dashboard",
+        "href": "/dashboard"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Join now",
+        "href": "#pricing",
+        "style": "primary CTA"
+      }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "id": "top",
+      "headline_parts": [
+        "SHIP",
+        "your app in 30 days",
+        "or",
+        "DIE",
+        "miss the deadline, get kicked out forever."
+      ],
+      "scroll_cue": true,
+      "animated_scene": {
+        "layers": [
+          "storm-layer + storm-flash",
+          "moon",
+          "clouds",
+          "rain particles",
+          "ship-scene (hero ship image)",
+          "crew sprites (multiple positions)",
+          "captain sprite",
+          "slacker sprite",
+          "fall + splash sprites (overboard animation)",
+          "wave layers (parallax)"
+        ],
+        "hero_ship": "/_next/static/media/ship-hero.11aijkz4a5ddc.webp"
+      },
+      "header": "Sticky nav over hero"
+    },
+    "problem": {
+      "layout": "Sticky scroll-reveal text, min-h 145svh, pixel noise texture overlay",
+      "texture": "/landing/pirate/pixel-noise.png",
+      "copy_sequence": [
+        {
+          "text": "0 users.",
+          "style": "emphasis gold, full opacity"
+        },
+        {
+          "text": "0 revenue.",
+          "style": "emphasis gold, dimmed"
+        },
+        {
+          "text": "Not because the idea is bad...",
+          "style": "dimmed blur"
+        },
+        {
+          "text": "...but because nobody can actually use your app yet.",
+          "style": "dimmed blur"
+        },
+        {
+          "text": "\"I'm two weeks away.\"",
+          "style": "dimmed blur"
+        },
+        {
+          "text": "You've been two weeks away for four months 💀",
+          "style": "dimmed blur"
+        },
+        {
+          "text": "Polishing in private isn't progress.",
+          "style": "revealed"
+        },
+        {
+          "text": "You don't need more time.",
+          "style": "revealed"
+        },
+        {
+          "text": "You need a different strategy.",
+          "style": "revealed, emphasis"
+        }
+      ]
+    },
+    "how_it_works": {
+      "headline": "Ship an app every 30 days until one changes your life",
+      "steps": [
+        {
+          "number": "01",
+          "label": "step",
+          "title": "Become a pirate",
+          "intro": "You are the average of the five people you spend the most time with. Join a private crew of builders who ship, not productivity tourists.",
+          "bullets": [
+            "Join our Discord community of pirates who ship",
+            "Hold each other accountable with daily check-ins",
+            "Feeling solo? Join the voice channels and cowork with others"
+          ],
+          "image": "/_next/static/media/step-1.146j4hpyjcz8o.png"
+        },
+        {
+          "number": "02",
+          "label": "step",
+          "title": "Make small bets",
+          "intro": "Building a business is scary. Build one feature with a buy button instead. We break down the core of making small bets into a gamified startup roadmap.",
+          "bullets": [
+            "One feature. A buy button. That's all you need to validate",
+            "Overthinking? Each step guides you to the next",
+            "Finally launch your idea — it's mandatory"
+          ],
+          "image": "/_next/static/media/step-2.17jvbmqhriu4h.jpg"
+        },
+        {
+          "number": "03",
+          "label": "step",
+          "title": "Don't quit",
+          "intro": "This is the whole game. Ship or Die exists so quitting feels stupid and shipping feels fun. Keep building until you find the startup that changes your life.",
+          "bullets": [
+            "Public mission profiles that keep you accountable",
+            "30-day deadlines and trophies that turn shipping into a game",
+            "Ship, launch, repeat is your new normal"
+          ],
+          "image": "/_next/static/media/step-3.0jt6mi8tf6a48.jpg"
+        }
+      ],
+      "cta": {
+        "label": "Join the crew",
+        "href": "#pricing"
+      }
+    },
+    "consequences": {
+      "headline": "Miss the deadline...",
+      "penalties": [
+        "Hall of shame in the public Discord channel",
+        "Kicked out of the community",
+        "Publicly marked overboard",
+        "No refund"
+      ],
+      "visual": "Plank walk animation — pirate walks plank, falls, shark"
+    },
+    "founders": {
+      "headline": "Built by people who ship.",
+      "people": [
+        {
+          "name": "Marc Lou",
+          "bio": "Marc thought he was Mark Zuckerberg and spent 2 years building ambitious startups nobody wanted: 0 users, $0 revenue. So he changed strategy: build, launch, repeat. He has now launched 30+ startups, including DataFast ($22K MRR) and TrustMRR ($33K MRR)."
+        },
+        {
+          "name": "jack friks",
+          "bio": "Jack quit McDonald's to learn to code in his mom's basement. His first app Curiosity Quench hit 100,000 downloads, then he shipped Post Bridge (now $35K MRR) and Lovelee Couples (100,000+ downloads)."
+        }
+      ],
+        "social_proof_headline": "112 pirates are shipping. Aye!",
+      "tweet_carousel": {
+        "visible_count": 3,
+        "expand_label": "Show 3 more tweets",
+        "tweets": [
+          {
+            "author_name": "Janis Ozolins",
+            "handle": "OzolinsJanis",
+            "text": "i have 2 products i want to ship. let's add some more accountability n fun. aye aye captain @marclou @jackfriks 🫡",
+            "date": "2026-05-26T11:07:50.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/1602909741872726017/UKMyxJDD_normal.jpg",
+              "https://pbs.twimg.com/media/HJPau_WWkAAL31c?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/OzolinsJanis/status/2059230022381048017"
+          },
+          {
+            "author_name": "Davis",
+            "handle": "nabutovskis",
+            "text": "I’m officially a pirate. Just joined @jackfriks @marclou Ship Or Die 🔥🔥",
+            "date": "2026-05-26T08:06:30.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/1658544951431421960/KTDUcggp_normal.jpg",
+              "https://pbs.twimg.com/media/HJOxSPXXEAAUstk?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/nabutovskis/status/2059184387632095738"
+          },
+          {
+            "author_name": "vieren",
+            "handle": "richvieren",
+            "text": "let's cook!!",
+            "date": "2026-05-26T07:55:48.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/1895233349473509376/l1UyDBHc_normal.jpg",
+              "https://pbs.twimg.com/media/HJOuyymWMAA_ivH?format=png&amp;name=small"
+            ],
+            "url": "https://x.com/richvieren/status/2059181696914735528"
+          },
+          {
+            "author_name": "Jaco",
+            "handle": "jacomakes",
+            "text": "Let's go CREW!! We're in this together!! We SHIP or DIE @jackfriks @marclou",
+            "date": "2026-05-26T08:05:31.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/2059183491062095874/UcpnGGxR_normal.jpg",
+              "https://pbs.twimg.com/media/HJOw9GGboAAJPx-?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/jacomakes/status/2059184139744751805"
+          },
+          {
+            "author_name": "Jessyka Boatright",
+            "handle": "jessyka_boat",
+            "text": "I joined!!!!",
+            "date": "2026-05-25T22:04:04.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/2059089606956695552/ezTIRH6O_normal.jpg",
+              "https://pbs.twimg.com/media/HJMnZKVaUAA5rht?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/jessyka_boat/status/2059032779757904382"
+          },
+          {
+            "author_name": "katalystkat | #FitDevs",
+            "handle": "katalyst_katt",
+            "text": "help i'm on a ship and i refuse to die",
+            "date": "2026-05-26T00:03:16.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/1484595434345492484/aV2lYQ3-_normal.jpg",
+              "https://pbs.twimg.com/media/HJNCh8HXQAAfoKL?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/katalyst_katt/status/2059062776266395899"
+          },
+          {
+            "author_name": "Dan K",
+            "handle": "DanKWrites",
+            "text": "Day 1 of Ship or Die! 🏴‍☠️ Last night I locked in my idea - I'm building 'Limber' - a mac app that gets you stretching at your desk every hour, using your webcam to ensure you're hitting the correct poses, for the right amount of time This morning i've got Claude Design Show more",
+            "date": "2026-05-26T07:42:44.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/2059176334304116736/cWKMnqX__normal.jpg",
+              "https://pbs.twimg.com/media/HJOqJ70WwAAb2_h?format=jpg&amp;name=small",
+              "https://pbs.twimg.com/media/HJOqaqyWEAAcxvA?format=jpg&amp;name=small",
+              "https://pbs.twimg.com/media/HJOq4RwX0AAhb1Y?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/DanKWrites/status/2059178407091470416"
+          },
+          {
+            "author_name": "Rouzbeh",
+            "handle": "JustRouzbeh",
+            "text": "Joined Ship or Die to keep shipping alongside @jackfriks and @marclou. Current rate: a ship a month. New rate: a ship every two weeks. Hoist the colors, let's sail 🏴‍☠️⚓️",
+            "date": "2026-05-26T10:33:16.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/2059222518926360576/jXnip6T7_normal.jpg",
+              "https://pbs.twimg.com/media/HJPS3XWXkAI7MtT?format=jpg&amp;name=small"
+            ],
+            "url": "https://x.com/JustRouzbeh/status/2059221320831811883"
+          },
+          {
+            "author_name": "Alper Tunga",
+            "handle": "altudev",
+            "text": "Just linked up with a new crew. Time to ship beyond local waters. Decided to go fully global with English content and build with shippers from everywhere. The deep waters are calling, and I'm not sailing out there alone; I'm rolling with the pirates. :))) @marclou @jackfriks Show more",
+            "date": "2026-05-26T10:45:23.000Z",
+            "likes": 0,
+            "replies": 0,
+            "images": [
+              "https://pbs.twimg.com/profile_images/1656931305383182338/zZJjbgbq_normal.jpg",
+              "https://pbs.twimg.com/media/HJPUNzMWIAApEv7?format=png&amp;name=small"
+            ],
+            "url": "https://x.com/altudev/status/2059224371097464892"
+          }
+        ]
+      }
+    },
+    "pricing": {
+      "id": "pricing",
+      "eyebrow": "pricing",
+      "headline": "Join the crew.",
+      "price": {
+        "was": 299,
+        "now": 249,
+        "currency": "USD",
+        "type": "one-time payment"
+      },
+      "includes": [
+        "Private community access",
+        "Gamified 30-day startup journey",
+        "Public profile with all your apps"
+      ],
+      "warning": "No refund. Ship or get kicked out.",
+      "cta": {
+        "label": "Join for $249",
+        "href": "checkout/payment link"
+      },
+      "tier_ladder": [
+        {
+          "price": 199,
+          "label": "sold out"
+        },
+        {
+          "price": 249,
+          "label": "88 spots left",
+          "active": true
+        },
+        {
+          "price": 299,
+          "label": "standard price"
+        }
+      ]
+    },
+    "faq": {
+      "headline": "Questions before you board?",
+      "items": [
+        {
+          "question": "What app can I work on?+",
+          "answer": "Anything, as long as it can be shared with a link. SaaS, tool, directory, marketplace, AI wrapper, cursed little experiment. If the crew can click it, it counts."
+        },
+        {
+          "question": "What if I already have an idea?+",
+          "answer": "Good. Bring it aboard and stop polishing the treasure map. The point is to ship the smallest version people can actually use."
+        },
+        {
+          "question": "What if I do not have an idea yet?+",
+          "answer": "You will pick one fast. No hiding in the fog for three weeks asking the wind for permission."
+        },
+        {
+          "question": "Do I need to be a technical founder?+",
+          "answer": "No. You need enough grit to get a link live. Code it, vibe code it, duct-tape it. The sea does not care how the boat floats."
+        },
+        {
+          "question": "When does the 30-day timer start?+",
+          "answer": "After checkout, you choose the project you are committing to. Once that mission is created, the 30-day timer starts. After you ship and stay on board, you do not have to start another mission right away. Keep working on your startup if it is taking off. Start a new mission whenever you want, and that starts a new 30-day timer."
+        },
+        {
+          "question": "What happens if I do not launch in 30 days?+",
+          "answer": "You get marked overboard, lose community access, and become a warning tale for the next batch of pirates who thought they were special."
+        },
+        {
+          "question": "Can I change my idea after joining?+",
+          "answer": "Yes, early and for a real reason. But once you've signed the oath, you're committed to the idea and the 30-day clock."
+        },
+        {
+          "question": "Is this a course?+",
+          "answer": "No. Courses let you feel productive while staying hidden. This is a deadline, an exclusive community, and a public launch waiting to judge your excuses."
+        },
+        {
+          "question": "How much time do I need each week?+",
+          "answer": "Enough to move the ship daily. Some pirates have full-time jobs, kids, chaos, and bad Wi-Fi. The rule is progress, not perfect conditions."
+        },
+        {
+          "question": "Will people help me?+",
+          "answer": "Aye. You get the crew, feedback, pressure, and visibility. You still have to swing the hammer yourself."
+        },
+        {
+          "question": "Can I get a refund?+",
+          "answer": "If you genuinely asked this, blink twice and start over."
+        }
+      ]
+    },
+    "community": {
+      "id": "community",
+      "stats": {
+        "shipping": 108,
+        "overboard": 4
+      },
+      "crew_scene": "Interactive deck with member avatars — on_deck vs overboard states",
+      "members": [],
+      "footer": {
+        "legal": [
+          {
+            "label": "Terms",
+            "href": "/terms"
+          },
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          }
+        ],
+        "copyright": "Ship or Die — Marc Lou & Jack Friks"
+      }
+    }
+  },
+  "headings_extracted": [
+    "SHIP",
+    "Ship an app every 30 days until one changes your life",
+    "Become a pirate",
+    "Make small bets",
+    "Don't quit",
+    "Built by people who ship.",
+    "Marc Lou",
+    "jack friks",
+    "110 pirates are shipping. Aye!",
+    "Join the crew.",
+    "Questions before you board?",
+    "What app can I work on?",
+    "What if I already have an idea?",
+    "What if I do not have an idea yet?",
+    "Do I need to be a technical founder?",
+    "When does the 30-day timer start?",
+    "What happens if I do not launch in 30 days?",
+    "Can I change my idea after joining?",
+    "Is this a course?",
+    "How much time do I need each week?",
+    "Will people help me?",
+    "Can I get a refund?",
+    "106 people shipping startups"
+  ],
+  "ctas": [
+    {
+      "label": "Ship or Dieby Marc Lou & Jack Friks",
+      "href": "#top"
+    },
+    {
+      "label": "Dashboard",
+      "href": "/dashboard"
+    },
+    {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "label": "view crew page→",
+      "href": "/crew"
+    },
+    {
+      "label": "slow chaz0 startups shippedview profile",
+      "href": "/u/slow-chaz"
+    },
+    {
+      "label": "Skelleyboy0 startups shippedview profile",
+      "href": "/u/skelleyboy"
+    },
+    {
+      "label": "Taha0 startups shippedview profile",
+      "href": "/u/taha"
+    },
+    {
+      "label": "shippedbytim0 startups shippedview profile",
+      "href": "/u/shippedbytim"
+    },
+    {
+      "label": "Mailman0 startups shippedview profile",
+      "href": "/u/mailman"
+    },
+    {
+      "label": "tiby.eth0 startups shippedview profile",
+      "href": "/u/tiby-eth"
+    },
+    {
+      "label": "Viis0 startups shippedview profile",
+      "href": "/u/viis"
+    },
+    {
+      "label": "Vlad0 startups shippedview profile",
+      "href": "/u/vlad"
+    },
+    {
+      "label": "Taras0 startups shippedview profile",
+      "href": "/u/taras"
+    },
+    {
+      "label": "maukka0 startups shippedview profile",
+      "href": "/u/maukka"
+    },
+    {
+      "label": "eduardnpetrache0 startups shippedview profile",
+      "href": "/u/eduardnpetrache"
+    },
+    {
+      "label": "Testosteronny0 startups shippedview profile",
+      "href": "/u/testosteronny"
+    },
+    {
+      "label": "Toby Bootstrap Marshman0 startups shippedview profile",
+      "href": "/u/toby-bootstrap-marshman"
+    },
+    {
+      "label": "Janis Ozolins0 startups shippedview profile",
+      "href": "/u/janis-ozolins"
+    },
+    {
+      "label": "JDI MINISOUL0 startups shippedview profile",
+      "href": "/u/jdi-minisoul"
+    },
+    {
+      "label": "ogtayhuseynov00 startups shippedview profile",
+      "href": "/u/ogtayhuseynov0"
+    },
+    {
+      "label": "Yann0 startups shippedview profile",
+      "href": "/u/yann"
+    },
+    {
+      "label": "Zid0 startups shippedview profile",
+      "href": "/u/zid"
+    },
+    {
+      "label": "Robin Monteiro0 startups shippedview profile",
+      "href": "/u/robin-monteiro"
+    },
+    {
+      "label": "Four-Eyed Pete0 startups shippedview profile",
+      "href": "/u/four-eyed-pete"
+    },
+    {
+      "label": "Alper Tunga0 startups shippedview profile",
+      "href": "/u/alper-tunga"
+    },
+    {
+      "label": "Alexintosh0 startups shippedview profile",
+      "href": "/u/alexintosh"
+    },
+    {
+      "label": "Rouzbeh0 startups shippedview profile",
+      "href": "/u/rouzbeh"
+    },
+    {
+      "label": "George0 startups shippedview profile",
+      "href": "/u/george"
+    },
+    {
+      "label": "Narcissus0 startups shippedview profile",
+      "href": "/u/narcissus"
+    },
+    {
+      "label": "Andres Arismendy0 startups shippedview profile",
+      "href": "/u/andres-arismendy"
+    },
+    {
+      "label": "Captain Shortcut0 startups shippedview profile",
+      "href": "/u/captain-shortcut"
+    },
+    {
+      "label": "Jake0 startups shippedview profile",
+      "href": "/u/jake"
+    },
+    {
+      "label": "Onur0 startups shippedview profile",
+      "href": "/u/onur"
+    },
+    {
+      "label": "Beket Bayomir0 startups shippedview profile",
+      "href": "/u/beket-bayomir"
+    },
+    {
+      "label": "Jas Bindra0 startups shippedview profile",
+      "href": "/u/jas-bindra"
+    },
+    {
+      "label": "Henno0 startups shippedview profile",
+      "href": "/u/henno"
+    },
+    {
+      "label": "Denis0 startups shippedview profile",
+      "href": "/u/denis"
+    },
+    {
+      "label": "Davis Nabutovskis0 startups shippedview profile",
+      "href": "/u/davis-nabutovskis"
+    },
+    {
+      "label": "Çağdaş Ken Demirel0 startups shippedview profile",
+      "href": "/u/a-da-ken-demirel"
+    },
+    {
+      "label": "Captain Heera0 startups shippedview profile",
+      "href": "/u/captain-heera"
+    },
+    {
+      "label": "johnjohn0 startups shippedview profile",
+      "href": "/u/johnjohn"
+    },
+    {
+      "label": "@ybouane0 startups shippedview profile",
+      "href": "/u/ybouane"
+    },
+    {
+      "label": "saschthetasch0 startups shippedview profile",
+      "href": "/u/saschthetasch"
+    },
+    {
+      "label": "Charlie Coppinger0 startups shippedview profile",
+      "href": "/u/charlie-coppinger"
+    },
+    {
+      "label": "Adam North0 startups shippedview profile",
+      "href": "/u/adam-north"
+    },
+    {
+      "label": "JP0 startups shippedview profile",
+      "href": "/u/jp"
+    },
+    {
+      "label": "lilfrogdev0 startups shippedview profile",
+      "href": "/u/lilfrogdev"
+    },
+    {
+      "label": "Lawrence0 startups shippedview profile",
+      "href": "/u/lawrence"
+    },
+    {
+      "label": "Right Jeong0 startups shippedview profile",
+      "href": "/u/right-jeong"
+    },
+    {
+      "label": "dan b0 startups shippedview profile",
+      "href": "/u/dan-b"
+    },
+    {
+      "label": "Jaco0 startups shippedview profile",
+      "href": "/u/jaco"
+    },
+    {
+      "label": "avi0 startups shippedview profile",
+      "href": "/u/avi"
+    },
+    {
+      "label": "Haysm Hakim0 startups shippedview profile",
+      "href": "/u/haysm-hakim"
+    },
+    {
+      "label": "Nil0 startups shippedview profile",
+      "href": "/u/nil"
+    },
+    {
+      "label": "Dav0 startups shippedview profile",
+      "href": "/u/dav"
+    },
+    {
+      "label": "Andrrrrrreas0 startups shippedview profile",
+      "href": "/u/andrrrrrreas"
+    },
+    {
+      "label": "Anni Maan0 startups shippedview profile",
+      "href": "/u/anni-maan"
+    },
+    {
+      "label": "Cap’n EJ0 startups shippedview profile",
+      "href": "/u/cap-n-ej"
+    },
+    {
+      "label": "TentaDev0 startups shippedview profile",
+      "href": "/u/tentadev"
+    },
+    {
+      "label": "Churnbeard0 startups shippedview profile",
+      "href": "/u/churnbeard"
+    },
+    {
+      "label": "Arian0 startups shippedview profile",
+      "href": "/u/arian"
+    },
+    {
+      "label": "Bas Fijneman0 startups shippedview profile",
+      "href": "/u/bas-fijneman"
+    },
+    {
+      "label": "Ahmed Sultan0 startups shippedview profile",
+      "href": "/u/ahmed-sultan"
+    },
+    {
+      "label": "Code with Antonio0 startups shippedview profile",
+      "href": "/u/code-with-antonio"
+    },
+    {
+      "label": "geo0 startups shippedview profile",
+      "href": "/u/geo"
+    },
+    {
+      "label": "katalystkat0 startups shippedview profile",
+      "href": "/u/katalystkat"
+    },
+    {
+      "label": "Ryan J. Shaw0 startups shippedview profile",
+      "href": "/u/ryan-j-shaw"
+    },
+    {
+      "label": "Calypso Queen0 startups shippedview profile",
+      "href": "/u/calypso-queen"
+    },
+    {
+      "label": "radunemerenco0 startups shippedview profile",
+      "href": "/u/radunemerenco"
+    },
+    {
+      "label": "Falleco0 startups shippedview profile",
+      "href": "/u/falleco"
+    },
+    {
+      "label": "Chris Ashby0 startups shippedview profile",
+      "href": "/u/chris-ashby"
+    },
+    {
+      "label": "vincz0 startups shippedview profile",
+      "href": "/u/vincz"
+    },
+    {
+      "label": "roubert0 startups shippedview profile",
+      "href": "/u/roubert"
+    },
+    {
+      "label": "Rich Vieren0 startups shippedview profile",
+      "href": "/u/rich-vieren"
+    },
+    {
+      "label": "Dmytro Katyukha0 startups shippedview profile",
+      "href": "/u/dmytro-katyukha"
+    },
+    {
+      "label": "Marian André0 startups shippedview profile",
+      "href": "/u/marian-andr"
+    },
+    {
+      "label": "Chirag Asarpota0 startups shippedview profile",
+      "href": "/u/chirag-asarpota"
+    },
+    {
+      "label": "andy0 startups shippedview profile",
+      "href": "/u/andy"
+    },
+    {
+      "label": "AlexisLaMouv0 startups shippedview profile",
+      "href": "/u/alexislamouv"
+    },
+    {
+      "label": "Dan K0 startups shippedview profile",
+      "href": "/u/dan-k"
+    },
+    {
+      "label": "Blane0 startups shippedview profile",
+      "href": "/u/blane"
+    },
+    {
+      "label": "Dmytro Virych0 startups shippedview profile",
+      "href": "/u/dmytro-virych"
+    },
+    {
+      "label": "Dairon Canel0 startups shippedview profile",
+      "href": "/u/dairon-canel"
+    },
+    {
+      "label": "Anthony Riera0 startups shippedview profile",
+      "href": "/u/anthony-riera"
+    },
+    {
+      "label": "Luis Rampolla0 startups shippedview profile",
+      "href": "/u/luis-rampolla"
+    },
+    {
+      "label": "Sid0 startups shippedview profile",
+      "href": "/u/sid"
+    },
+    {
+      "label": "Luckforest0 startups shippedview profile",
+      "href": "/u/luckforest"
+    },
+    {
+      "label": "Calico Belle0 startups shippedview profile",
+      "href": "/u/calico-belle"
+    },
+    {
+      "label": "Peg-Leg Pete0 startups shippedview profile",
+      "href": "/u/peg-leg-pete"
+    },
+    {
+      "label": "Davy Bones2 startups shippedview profile",
+      "href": "/u/davy-bones"
+    },
+    {
+      "label": "Saltbeard0 startups shippedview profile",
+      "href": "/u/saltbeard"
+    },
+    {
+      "label": "jack friks4 startups shippedview profile",
+      "href": "/u/jack-friks"
+    },
+    {
+      "label": "Marc Lou5 startups shippedview profile",
+      "href": "/u/marc-lou"
+    }
+  ],
+  "section_ids": [
+    "_R_",
+    "community",
+    "pricing",
+    "top"
+  ],
+  "design_system": {
+    "background_classes": [
+      "bg-[#020712]",
+      "bg-[#030914]",
+      "bg-[#040b15]",
+      "bg-[#06111d]",
+      "bg-[#071827]",
+      "bg-[#08131f]",
+      "bg-[#34595a]",
+      "bg-[#5f8381]",
+      "bg-[#76c893]",
+      "bg-[#9f3835]",
+      "bg-[#a8463f]",
+      "bg-[#d4a556]",
+      "bg-[#d85a4d]",
+      "bg-[radial-gradient(circle_at_50%_45%,rgb(212_165_86/0.12),transparent_15rem),radial-gradient(circle_at_74%_18%,rgb(216_90_77/0.1),transparent_16rem),#030914]",
+      "bg-[url(&#x27;/landing/pirate/pixel-noise.png&#x27;)]",
+      "bg-[url('/landing/pirate/pixel-noise.png')]",
+      "bg-background",
+      "bg-gradient",
+      "bg-repeat",
+      "bg-transparent"
+    ],
+    "text_classes": [
+      "text-[#0a1624]",
+      "text-[#203544]",
+      "text-[#52666b]",
+      "text-[#667d82]",
+      "text-[#6f8487]",
+      "text-[#76c893]",
+      "text-[#88a7a3]",
+      "text-[#8aa19e]",
+      "text-[#a7b6b2]",
+      "text-[#c3d0ca]",
+      "text-[#c8d4d1]",
+      "text-[#c9d2cc]",
+      "text-[#d4a556]",
+      "text-[#d85a4d]",
+      "text-[#e2695e]",
+      "text-[#f0b0a8]",
+      "text-[#f3e6c9]",
+      "text-[0.55rem]",
+      "text-[0.62rem]",
+      "text-[0.65rem]",
+      "text-[0.68rem]",
+      "text-[0.78rem]",
+      "text-[0.7rem]",
+      "text-[0.95rem]",
+      "text-[0.9rem]",
+      "text-[clamp(0.95rem,2.4vw,2.4rem)]",
+      "text-[clamp(1.2rem,1.8vw,1.58rem)]",
+      "text-[clamp(1.45rem,3.8vw,4rem)]",
+      "text-[clamp(1.45rem,3vw,2.2rem)]",
+      "text-[clamp(1rem,1.35vw,1.35rem)]",
+      "text-[clamp(2.35rem,3.2vw,3.4rem)]",
+      "text-[clamp(2.3rem,5.8vw,4.9rem)]",
+      "text-[clamp(2.3rem,6vw,3.8rem)]",
+      "text-[clamp(2.4rem,5vw,4.3rem)]",
+      "text-[clamp(2.4rem,8vw,4rem)]",
+      "text-[clamp(2.6rem,6vw,5.4rem)]",
+      "text-[clamp(3.1rem,8vw,5.7rem)]",
+      "text-[clamp(3.4rem,11vw,5.5rem)]",
+      "text-[clamp(3rem,7vw,4.6rem)]",
+      "text-[clamp(3rem,7vw,6rem)]"
+    ],
+    "font_classes": [
+      "font-display",
+      "font-mono"
+    ],
+    "hex_colors": [
+      "#020712",
+      "#030914",
+      "#040b15",
+      "#06111d",
+      "#071827",
+      "#08131f",
+      "#0a1624",
+      "#102535",
+      "#1a3142",
+      "#203544",
+      "#233846",
+      "#241016",
+      "#284c4a",
+      "#34595a",
+      "#365163",
+      "#52666b",
+      "#5f8381",
+      "#667d82",
+      "#6f8487",
+      "#76c893",
+      "#7a292b",
+      "#88a7a3",
+      "#8aa19e",
+      "#9f3835",
+      "#a7b6b2",
+      "#a8463f",
+      "#c3d0ca",
+      "#c8d4d1",
+      "#c9d2cc",
+      "#d4a556",
+      "#d85a4d",
+      "#e2695e",
+      "#f0b0a8",
+      "#f3e6c9"
+    ],
+    "tailwind_arbitrary_colors": [
+      "#020712",
+      "#030914",
+      "#040b15",
+      "#06111d",
+      "#071827",
+      "#08131f",
+      "#0a1624",
+      "#102535",
+      "#1a3142",
+      "#203544",
+      "#233846",
+      "#284c4a",
+      "#34595a",
+      "#365163",
+      "#52666b",
+      "#5f8381",
+      "#667d82",
+      "#6f8487",
+      "#76c893",
+      "#88a7a3",
+      "#8aa19e",
+      "#9f3835",
+      "#a7b6b2",
+      "#a8463f",
+      "#c3d0ca",
+      "#c8d4d1",
+      "#c9d2cc",
+      "#d4a556",
+      "#d85a4d",
+      "#e2695e",
+      "#f0b0a8",
+      "#f3e6c9",
+      "0.55rem",
+      "0.62rem",
+      "0.65rem",
+      "0.68rem",
+      "0.78rem",
+      "0.7rem",
+      "0.95rem",
+      "0.9rem"
+    ],
+    "key_colors": {
+      "bone": "Primary light text (text-bone)",
+      "background": "Page background (bg-background)",
+      "gold_accent": "#d4a556 — highlighted stats/emphasis",
+      "muted_teal": "#667d82 — dimmed scroll text",
+      "soft_green": "#c9d2cc — body copy in problem section"
+    }
+  },
+  "assets": {
+    "css": [
+      "/_next/static/chunks/0-16.9r~shf6m.css?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/03~kea_btv922.css?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/0vv1_x2wrzzni.css?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7"
+    ],
+    "javascript": [
+      "/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/07lqbc1bunvps.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/0_k5kz-r4593u.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/0a9z69mw9pl6z.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/0g1gtocvehq8g.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/0n1bpogj.il~n.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/0wa6nhm8bzg9v.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/12gwdbwaxm5l4.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/1355gzo47vpcs.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/13kafzwzi6vap.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/chunks/turbopack-0lrc60kst37d3.js?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7"
+    ],
+    "images_and_media": [
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcrew-mate-unclaimed-portrait.14~q1kp6w35sz.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcrew-mate-unclaimed-working.12ott0.geshin.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeadline-pirate-edge.16y66yqx1ck8..png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeadline-plank-left.17o-52-wukx59.png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.0x7tyegcepml4.png&amp;w=1920&amp;q=100&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fship_crew_3_decks.05ifwz3c3~e~d.png&amp;w=3840&amp;q=100&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-1.146j4hpyjcz8o.png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-2.17jvbmqhriu4h.jpg&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-3.0jt6mi8tf6a48.jpg&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fx-badge.01e985e0zf99t.png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2Fimages%2Fmisc%2Fblood-skull_nobg.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=%2Flanding%2Fpirate%2Fscroll-hand.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F69ffbbfe6a05c47b34679f8a%2Fportrait-1779784972379.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F69ffbbfe6a05c47b34679f8a%2Fportrait-1779784972379.png&amp;w=3840&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F69ffbbfe6a05c47b34679f8a%2Fworking-1779784972379.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a0079b76a05c47b346aa215%2Fportrait-1779742163747.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a0079b76a05c47b346aa215%2Fportrait-1779742163747.png&amp;w=3840&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a0079b76a05c47b346aa215%2Fworking-1779742163747.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a111f97028b8535e8ae8583%2Fportrait-1779507817188.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a11f9032294d4f257bebc40%2Fportrait-1779562920389.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a12a1ad2294d4f257c0dda4%2Fportrait-1779606074291.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a12a1ad2294d4f257c0dda4%2Fworking-1779606074291.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1498fd2294d4f257c4d19f%2Fportrait-1779787242744.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1498fd2294d4f257c4d19f%2Fworking-1779787242744.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149af52294d4f257c4d1de%2Fportrait-1779742619248.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149af52294d4f257c4d1de%2Fworking-1779742619248.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149ea82294d4f257c4d23d%2Fportrait-1779738151194.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149ea82294d4f257c4d23d%2Fworking-1779738151194.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a1602294d4f257c4d277%2Fportrait-1779742943808.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a1602294d4f257c4d277%2Fworking-1779742943808.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a29f2294d4f257c4d296%2Fportrait-1779743090055.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a29f2294d4f257c4d296%2Fworking-1779743090055.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a5ef2294d4f257c4d39d%2Fportrait-1779740956619.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a5ef2294d4f257c4d39d%2Fworking-1779740956619.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a7202294d4f257c4d3ce%2Fportrait-1779745627809.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a7202294d4f257c4d3ce%2Fworking-1779745627809.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14af4e2294d4f257c4d483%2Fportrait-1779742001072.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14af4e2294d4f257c4d483%2Fworking-1779742001072.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4862294d4f257c4d4e6%2Fportrait-1779742970833.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4862294d4f257c4d4e6%2Fworking-1779742970833.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4d82294d4f257c4d4e8%2Fportrait-1779743040499.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4d82294d4f257c4d4e8%2Fworking-1779743040499.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5262294d4f257c4d4e9%2Fportrait-1779742085470.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5262294d4f257c4d4e9%2Fworking-1779742085470.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5e52294d4f257c4d4fe%2Fportrait-1779743356110.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5e52294d4f257c4d4fe%2Fworking-1779743356110.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b9902294d4f257c4d547%2Fportrait-1779743469525.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b9902294d4f257c4d547%2Fworking-1779743469525.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ba132294d4f257c4d54d%2Fportrait-1779791746918.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ba132294d4f257c4d54d%2Fworking-1779791746918.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bda82294d4f257c4d57c%2Fportrait-1779744299794.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bda82294d4f257c4d57c%2Fworking-1779744299794.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bfc32294d4f257c4d59d%2Fportrait-1779747182985.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bfc32294d4f257c4d59d%2Fworking-1779747182985.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c09a2294d4f257c4d5a6%2Fportrait-1779746809425.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c09a2294d4f257c4d5a6%2Fworking-1779746809425.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1482294d4f257c4d5ab%2Fportrait-1779746916683.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1482294d4f257c4d5ab%2Fworking-1779746916683.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1892294d4f257c4d5ae%2Fportrait-1779746268208.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1892294d4f257c4d5ae%2Fworking-1779746268208.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14cc672294d4f257c4d63a%2Fportrait-1779751545412.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14cc672294d4f257c4d63a%2Fworking-1779751545412.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14d5fb2294d4f257c4d6a1%2Fportrait-1779750599515.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14d5fb2294d4f257c4d6a1%2Fworking-1779750599515.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14dda92294d4f257c4d6f5%2Fportrait-1779752645850.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14dda92294d4f257c4d6f5%2Fworking-1779752645850.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14e5132294d4f257c4d778%2Fportrait-1779754518311.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14e5132294d4f257c4d778%2Fworking-1779754518311.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ead12294d4f257c4d7c4%2Fportrait-1779796424343.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ead12294d4f257c4d7c4%2Fworking-1779796424343.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15022b2294d4f257c4d8ef%2Fportrait-1779787633790.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15022b2294d4f257c4d8ef%2Fworking-1779787633790.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1506972294d4f257c4dcbd%2Fportrait-1779793814261.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1506972294d4f257c4dcbd%2Fworking-1779793814261.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1511312294d4f257c5077d%2Fportrait-1779787142994.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1511312294d4f257c5077d%2Fworking-1779787142994.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1514fd2294d4f257c516eb%2Fportrait-1779782125695.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1514fd2294d4f257c516eb%2Fworking-1779782125695.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15173a2294d4f257c51fdd%2Fportrait-1779797777770.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15173a2294d4f257c51fdd%2Fworking-1779797777770.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15186d2294d4f257c524f7%2Fportrait-1779785457313.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15186d2294d4f257c524f7%2Fworking-1779785457313.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a151da12294d4f257c53ae7%2Fportrait-1779786605671.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a151da12294d4f257c53ae7%2Fworking-1779786605671.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a152adb2294d4f257c5728d%2Fportrait-1779789478063.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a152adb2294d4f257c5728d%2Fworking-1779789478063.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1546592294d4f257c5e312%2Fportrait-1779783754492.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1546592294d4f257c5e312%2Fworking-1779783754492.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a154e2b2294d4f257c60324%2Fportrait-1779782121962.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a154e2b2294d4f257c60324%2Fworking-1779782121962.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1551642294d4f257c60c82%2Fportrait-1779796918323.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1551642294d4f257c60c82%2Fworking-1779796918323.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1557b72294d4f257c60ff7%2Fportrait-1779800898679.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1557b72294d4f257c60ff7%2Fworking-1779800898679.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b012294d4f257c61022%2Fportrait-1779784610970.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b012294d4f257c61022%2Fworking-1779784610970.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b2a2294d4f257c61023%2Fportrait-1779784580487.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b2a2294d4f257c61023%2Fworking-1779784580487.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b722294d4f257c61027%2Fportrait-1779784823512.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b722294d4f257c61027%2Fworking-1779784823512.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1560e72294d4f257c61065%2Fportrait-1779790454379.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1560e72294d4f257c61065%2Fworking-1779790454379.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15670c2294d4f257c610c6%2Fportrait-1779787740765.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15670c2294d4f257c610c6%2Fworking-1779787740765.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1569ae2294d4f257c610e6%2Fportrait-1779789850462.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1569ae2294d4f257c610e6%2Fworking-1779789850462.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156ac62294d4f257c610f6%2Fportrait-1779788793694.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156ac62294d4f257c610f6%2Fworking-1779788793694.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156b452294d4f257c61108%2Fportrait-1779789015003.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156b452294d4f257c61108%2Fworking-1779789015003.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156bb12294d4f257c61110%2Fportrait-1779790090485.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156bb12294d4f257c61110%2Fworking-1779790090485.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156f292294d4f257c6112e%2Fportrait-1779800792450.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156f292294d4f257c6112e%2Fworking-1779800792450.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15788d2294d4f257c6119f%2Fportrait-1779792214215.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15788d2294d4f257c6119f%2Fworking-1779792214215.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157b662294d4f257c611e5%2Fportrait-1779793749231.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157b662294d4f257c611e5%2Fworking-1779793749231.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157bea2294d4f257c611ee%2Fportrait-1779794277336.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157bea2294d4f257c611ee%2Fworking-1779794277336.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d1b2294d4f257c61209%2Fportrait-1779793327901.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d1b2294d4f257c61209%2Fworking-1779793327901.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d352294d4f257c6120a%2Fportrait-1779793325228.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d352294d4f257c6120a%2Fworking-1779793325228.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d642294d4f257c6127f%2Fportrait-1779795245559.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d642294d4f257c6127f%2Fworking-1779795245559.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157fa52294d4f257c612ce%2Fportrait-1779794804084.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157fa52294d4f257c612ce%2Fworking-1779794804084.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1581522294d4f257c612f8%2Fportrait-1779796004456.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1581522294d4f257c612f8%2Fworking-1779796004456.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582362294d4f257c61308%2Fportrait-1779794750038.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582362294d4f257c61308%2Fworking-1779794750038.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582712294d4f257c6130d%2Fportrait-1779796992570.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582712294d4f257c6130d%2Fworking-1779796992570.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582d92294d4f257c61315%2Fportrait-1779795374366.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582d92294d4f257c61315%2Fworking-1779795374366.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158a202294d4f257c613ce%2Fportrait-1779797084581.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158a202294d4f257c613ce%2Fworking-1779797084581.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158d802294d4f257c61409%2Fportrait-1779797712247.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158d802294d4f257c61409%2Fworking-1779797712247.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158eed2294d4f257c61431%2Fportrait-1779797792990.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158eed2294d4f257c61431%2Fworking-1779797792990.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158f312294d4f257c61435%2Fportrait-1779798267428.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158f312294d4f257c61435%2Fworking-1779798267428.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15903b2294d4f257c61463%2Fportrait-1779798879506.png&amp;w=256&amp;q=75",
+      "/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15903b2294d4f257c61463%2Fworking-1779798879506.png&amp;w=256&amp;q=75",
+      "/_next/static/media/0d13b97df6d5443d-s.p.0brxq1prcj6f5.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/media/9e9f04e3c37952ab-s.p.07uvnuj.ona6k.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/media/de161955856a921d-s.p.04z8pihzuh7s1.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/_next/static/media/ship-hero.11aijkz4a5ddc.webp?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "/icon.png?icon.0x7tyegcepml4.png",
+      "/landing/pirate/pixel-noise.png"
+    ],
+    "fonts": [],
+    "full_urls": [
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcrew-mate-unclaimed-portrait.14~q1kp6w35sz.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcrew-mate-unclaimed-working.12ott0.geshin.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeadline-pirate-edge.16y66yqx1ck8..png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeadline-plank-left.17o-52-wukx59.png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.0x7tyegcepml4.png&amp;w=1920&amp;q=100&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fship_crew_3_decks.05ifwz3c3~e~d.png&amp;w=3840&amp;q=100&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-1.146j4hpyjcz8o.png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-2.17jvbmqhriu4h.jpg&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-3.0jt6mi8tf6a48.jpg&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fx-badge.01e985e0zf99t.png&amp;w=3840&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2Fimages%2Fmisc%2Fblood-skull_nobg.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=%2Flanding%2Fpirate%2Fscroll-hand.png&amp;w=256&amp;q=75&amp;dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F69ffbbfe6a05c47b34679f8a%2Fportrait-1779784972379.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F69ffbbfe6a05c47b34679f8a%2Fportrait-1779784972379.png&amp;w=3840&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F69ffbbfe6a05c47b34679f8a%2Fworking-1779784972379.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a0079b76a05c47b346aa215%2Fportrait-1779742163747.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a0079b76a05c47b346aa215%2Fportrait-1779742163747.png&amp;w=3840&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a0079b76a05c47b346aa215%2Fworking-1779742163747.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a111f97028b8535e8ae8583%2Fportrait-1779507817188.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a11f9032294d4f257bebc40%2Fportrait-1779562920389.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a12a1ad2294d4f257c0dda4%2Fportrait-1779606074291.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a12a1ad2294d4f257c0dda4%2Fworking-1779606074291.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1498fd2294d4f257c4d19f%2Fportrait-1779787242744.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1498fd2294d4f257c4d19f%2Fworking-1779787242744.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149af52294d4f257c4d1de%2Fportrait-1779742619248.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149af52294d4f257c4d1de%2Fworking-1779742619248.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149ea82294d4f257c4d23d%2Fportrait-1779738151194.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a149ea82294d4f257c4d23d%2Fworking-1779738151194.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a1602294d4f257c4d277%2Fportrait-1779742943808.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a1602294d4f257c4d277%2Fworking-1779742943808.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a29f2294d4f257c4d296%2Fportrait-1779743090055.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a29f2294d4f257c4d296%2Fworking-1779743090055.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a5ef2294d4f257c4d39d%2Fportrait-1779740956619.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a5ef2294d4f257c4d39d%2Fworking-1779740956619.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a7202294d4f257c4d3ce%2Fportrait-1779745627809.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14a7202294d4f257c4d3ce%2Fworking-1779745627809.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14af4e2294d4f257c4d483%2Fportrait-1779742001072.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14af4e2294d4f257c4d483%2Fworking-1779742001072.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4862294d4f257c4d4e6%2Fportrait-1779742970833.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4862294d4f257c4d4e6%2Fworking-1779742970833.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4d82294d4f257c4d4e8%2Fportrait-1779743040499.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b4d82294d4f257c4d4e8%2Fworking-1779743040499.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5262294d4f257c4d4e9%2Fportrait-1779742085470.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5262294d4f257c4d4e9%2Fworking-1779742085470.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5e52294d4f257c4d4fe%2Fportrait-1779743356110.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b5e52294d4f257c4d4fe%2Fworking-1779743356110.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b9902294d4f257c4d547%2Fportrait-1779743469525.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14b9902294d4f257c4d547%2Fworking-1779743469525.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ba132294d4f257c4d54d%2Fportrait-1779791746918.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ba132294d4f257c4d54d%2Fworking-1779791746918.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bda82294d4f257c4d57c%2Fportrait-1779744299794.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bda82294d4f257c4d57c%2Fworking-1779744299794.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bfc32294d4f257c4d59d%2Fportrait-1779747182985.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14bfc32294d4f257c4d59d%2Fworking-1779747182985.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c09a2294d4f257c4d5a6%2Fportrait-1779746809425.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c09a2294d4f257c4d5a6%2Fworking-1779746809425.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1482294d4f257c4d5ab%2Fportrait-1779746916683.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1482294d4f257c4d5ab%2Fworking-1779746916683.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1892294d4f257c4d5ae%2Fportrait-1779746268208.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14c1892294d4f257c4d5ae%2Fworking-1779746268208.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14cc672294d4f257c4d63a%2Fportrait-1779751545412.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14cc672294d4f257c4d63a%2Fworking-1779751545412.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14d5fb2294d4f257c4d6a1%2Fportrait-1779750599515.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14d5fb2294d4f257c4d6a1%2Fworking-1779750599515.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14dda92294d4f257c4d6f5%2Fportrait-1779752645850.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14dda92294d4f257c4d6f5%2Fworking-1779752645850.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14e5132294d4f257c4d778%2Fportrait-1779754518311.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14e5132294d4f257c4d778%2Fworking-1779754518311.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ead12294d4f257c4d7c4%2Fportrait-1779796424343.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a14ead12294d4f257c4d7c4%2Fworking-1779796424343.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15022b2294d4f257c4d8ef%2Fportrait-1779787633790.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15022b2294d4f257c4d8ef%2Fworking-1779787633790.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1506972294d4f257c4dcbd%2Fportrait-1779793814261.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1506972294d4f257c4dcbd%2Fworking-1779793814261.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1511312294d4f257c5077d%2Fportrait-1779787142994.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1511312294d4f257c5077d%2Fworking-1779787142994.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1514fd2294d4f257c516eb%2Fportrait-1779782125695.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1514fd2294d4f257c516eb%2Fworking-1779782125695.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15173a2294d4f257c51fdd%2Fportrait-1779797777770.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15173a2294d4f257c51fdd%2Fworking-1779797777770.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15186d2294d4f257c524f7%2Fportrait-1779785457313.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15186d2294d4f257c524f7%2Fworking-1779785457313.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a151da12294d4f257c53ae7%2Fportrait-1779786605671.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a151da12294d4f257c53ae7%2Fworking-1779786605671.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a152adb2294d4f257c5728d%2Fportrait-1779789478063.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a152adb2294d4f257c5728d%2Fworking-1779789478063.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1546592294d4f257c5e312%2Fportrait-1779783754492.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1546592294d4f257c5e312%2Fworking-1779783754492.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a154e2b2294d4f257c60324%2Fportrait-1779782121962.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a154e2b2294d4f257c60324%2Fworking-1779782121962.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1551642294d4f257c60c82%2Fportrait-1779796918323.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1551642294d4f257c60c82%2Fworking-1779796918323.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1557b72294d4f257c60ff7%2Fportrait-1779800898679.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1557b72294d4f257c60ff7%2Fworking-1779800898679.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b012294d4f257c61022%2Fportrait-1779784610970.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b012294d4f257c61022%2Fworking-1779784610970.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b2a2294d4f257c61023%2Fportrait-1779784580487.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b2a2294d4f257c61023%2Fworking-1779784580487.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b722294d4f257c61027%2Fportrait-1779784823512.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a155b722294d4f257c61027%2Fworking-1779784823512.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1560e72294d4f257c61065%2Fportrait-1779790454379.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1560e72294d4f257c61065%2Fworking-1779790454379.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15670c2294d4f257c610c6%2Fportrait-1779787740765.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15670c2294d4f257c610c6%2Fworking-1779787740765.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1569ae2294d4f257c610e6%2Fportrait-1779789850462.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1569ae2294d4f257c610e6%2Fworking-1779789850462.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156ac62294d4f257c610f6%2Fportrait-1779788793694.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156ac62294d4f257c610f6%2Fworking-1779788793694.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156b452294d4f257c61108%2Fportrait-1779789015003.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156b452294d4f257c61108%2Fworking-1779789015003.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156bb12294d4f257c61110%2Fportrait-1779790090485.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156bb12294d4f257c61110%2Fworking-1779790090485.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156f292294d4f257c6112e%2Fportrait-1779800792450.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a156f292294d4f257c6112e%2Fworking-1779800792450.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15788d2294d4f257c6119f%2Fportrait-1779792214215.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15788d2294d4f257c6119f%2Fworking-1779792214215.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157b662294d4f257c611e5%2Fportrait-1779793749231.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157b662294d4f257c611e5%2Fworking-1779793749231.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157bea2294d4f257c611ee%2Fportrait-1779794277336.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157bea2294d4f257c611ee%2Fworking-1779794277336.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d1b2294d4f257c61209%2Fportrait-1779793327901.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d1b2294d4f257c61209%2Fworking-1779793327901.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d352294d4f257c6120a%2Fportrait-1779793325228.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d352294d4f257c6120a%2Fworking-1779793325228.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d642294d4f257c6127f%2Fportrait-1779795245559.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157d642294d4f257c6127f%2Fworking-1779795245559.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157fa52294d4f257c612ce%2Fportrait-1779794804084.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a157fa52294d4f257c612ce%2Fworking-1779794804084.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1581522294d4f257c612f8%2Fportrait-1779796004456.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1581522294d4f257c612f8%2Fworking-1779796004456.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582362294d4f257c61308%2Fportrait-1779794750038.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582362294d4f257c61308%2Fworking-1779794750038.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582712294d4f257c6130d%2Fportrait-1779796992570.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582712294d4f257c6130d%2Fworking-1779796992570.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582d92294d4f257c61315%2Fportrait-1779795374366.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a1582d92294d4f257c61315%2Fworking-1779795374366.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158a202294d4f257c613ce%2Fportrait-1779797084581.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158a202294d4f257c613ce%2Fworking-1779797084581.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158d802294d4f257c61409%2Fportrait-1779797712247.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158d802294d4f257c61409%2Fworking-1779797712247.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158eed2294d4f257c61431%2Fportrait-1779797792990.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158eed2294d4f257c61431%2Fworking-1779797792990.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158f312294d4f257c61435%2Fportrait-1779798267428.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a158f312294d4f257c61435%2Fworking-1779798267428.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15903b2294d4f257c61463%2Fportrait-1779798879506.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/image?url=https%3A%2F%2Fdjinh5srvzpwp.cloudfront.net%2Favatars%2F6a15903b2294d4f257c61463%2Fworking-1779798879506.png&amp;w=256&amp;q=75",
+      "https://www.ship-or-die.com/_next/static/media/0d13b97df6d5443d-s.p.0brxq1prcj6f5.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/static/media/9e9f04e3c37952ab-s.p.07uvnuj.ona6k.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/static/media/de161955856a921d-s.p.04z8pihzuh7s1.woff2?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/_next/static/media/ship-hero.11aijkz4a5ddc.webp?dpl=dpl_B7JZVKVhqE6fWS5Vx9s2mMPJrMa7",
+      "https://www.ship-or-die.com/icon.png?icon.0x7tyegcepml4.png",
+      "https://www.ship-or-die.com/landing/pirate/pixel-noise.png"
+    ]
+  },
+  "stats": {}
+}
